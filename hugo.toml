@@ -1,0 +1,5 @@
+baseURL = 'https://example.org/'
+locale = 'hu-hu'
+title = 'Open Space Egyesület - Honlap'
+theme = 'openspace-theme'
+copyright = 'Open Space Egyesület'

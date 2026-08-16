@@ -1,0 +1,65 @@
+{{- /*
+Renders a menu for the given menu ID.
+
+@context {page} page The current page.
+@context {string} menuID The menu ID.
+
+@example: {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+*/}}
+
+{{- $page := .page }} {{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+  <nav>
+    <a href="" id="fobb" class="submenu-btn hidden" ><span>főbb menüpontok</span></a>
+    <div id="fobb-menu" class="submenu">
+      {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+    </div>
+        <a href="" id="fejl" class="submenu-btn" ><span>fejlesztő központ</span></a>
+        <div id="fejl-menu" class="submenu hidden">
+            <a href="">autizmus</a>
+            <a href="">barátkozás</a>
+            <a href="">családterápia</a>
+            <a href="https://facebook.com/openspacebudapest">tanácsadás</a>
+        </div>
+        <a href="" id="tehetseg" class="submenu-btn" ><span>tehetséggondozás</span></a>
+        <div id="tehetseg-menu" class="submenu hidden">
+            <a href="">töri műhely</a>
+            <a href="">termtud műhely</a>
+            <a href="">scifi műhely</a>
+            <a href="https://facebook.com/openspacebudapest">irodalmi műhely</a>
+        </div>
+        <a href="" id="kozosseg" class="submenu-btn" ><span>közösségi tér</span></a>
+        <div id="kozosseg-menu" class="submenu hidden">
+            <a href="">programok</a>
+            <a href="">workshopok</a>
+            <a href="">táborok</a>
+            <a href="https://facebook.com/openspacebudapest" class="bg-blue">facebook</a>
+        </div>
+  </nav>
+{{- end }}
+
+{{- define "_partials/inline/menu/walk.html" }}
+  {{- $page := .page }}
+  {{- range .menuEntries }}
+    {{- $attrs := dict "href" .URL }}
+    {{- if $page.IsMenuCurrent .Menu . }}
+      {{- $attrs = merge $attrs (dict "class" "active" "aria-current" "page") }}
+    {{- else if $page.HasMenuCurrent .Menu .}}
+      {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
+    {{- end }}
+    {{- $name := .Name }}
+    {{- with .Identifier }}
+      {{- with T . }}
+        {{- $name = . }}
+      {{- end }}
+    {{- end }}
+      <a
+        {{- range $k, $v := $attrs }}
+          {{- with $v }}
+            {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+          {{- end }}
+        {{- end -}}
+      >{{ $name }}</a>
+  {{- end }}
+{{- end }}
