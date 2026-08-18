@@ -50,12 +50,12 @@ p {
     /* font-family: Outfit; */
 }
 
-.timestamp {
+time {
     /* font-size: 14; */
     font-family: Iosevka;
 }
 
-@media screen (min-width: 800px;){
+@media screen (min-width: 1100px;){
     header {
         max-width: 8cm;
     }
@@ -64,8 +64,9 @@ p {
         flex-direction: column;
     }
 
-    .container {
-        max-width: 1000px;
+    /* .container { */
+    main {
+        width: 1000px;
         margin: auto;
     }
 }
@@ -92,10 +93,19 @@ header {
 
 .container {
     /* margin: 1.5rem; */
-    max-width: 1000px;
+    width: 1000px;
     margin: auto;
     text-align: justify;
     font-size: 16px;
+}
+
+table {
+    width: 100%;
+}
+
+tr, td, th {
+    padding: 1em;
+    margin: 0;
 }
 
 

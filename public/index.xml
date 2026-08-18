@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Open Space Egyesület - Honlap</title>
-    <link>//192.168.1.85:1313/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on Open Space Egyesület - Honlap</description>
     <generator>Hugo</generator>
     <language>hu-hu</language>
     <copyright>Open Space Egyesület</copyright>
-    <lastBuildDate>Sat, 15 Aug 2026 13:43:05 +0200</lastBuildDate>
-    <atom:link href="//192.168.1.85:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Aug 2026 10:00:16 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>fieldu mieldu</title>
-      <link>//192.168.1.85:1313/posts/fufu/</link>
-      <pubDate>Sat, 15 Aug 2026 13:43:05 +0200</pubDate>
-      <guid>//192.168.1.85:1313/posts/fufu/</guid>
-      <description>&lt;p&gt;bírom a macskerokat&lt;/p&gt;&#xA;&lt;p&gt;mururu&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;jó dolog a hugo&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <title>Mittudomén!</title>
+      <link>http://localhost:1313/posts/mittudomen/</link>
+      <pubDate>Sun, 16 Aug 2026 10:00:16 +0200</pubDate>
+      <guid>http://localhost:1313/posts/mittudomen/</guid>
+      <description>&lt;h2 id=&#34;tudok-írkálni-dolgokat&#34;&gt;Tudok írkálni dolgokat.&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;kjsdlkjf&lt;/li&gt;&#xA;&lt;li&gt;dkjflj&lt;/li&gt;&#xA;&lt;li&gt;djflkj&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;kdjlkfajlkdsfjlks jdlfkjlksdjflk jlsjfkljsdlkfjléajsdlkfj lasj dfjasdf asdfjalskdjflj asl kdjlkfajlkdsfjlks jdlfkjlksdjflk jlsjfkljsdlkfjléajsdlkfj lasj dfjasdf asdfjalskdjflj asl kdjlkfajlkdsfjlks jdlfkjlksdjflk jlsjfkljsdlkfjléajsdlkfj lasj dfjasdf asdfjalskdjflj asl kdjlkfajlkdsfjlks jdlfkjlksdjflk jlsjfkljsdlkfjléajsdlkfj lasj dfjasdf asdfjalskdjflj asl kdjlkfajlkdsfjlks jdlfkjlksdjflk jlsjfkljsdlkfjléajsdlkfj lasj dfjasdf asdfjalskdjflj asl&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;tk_garfy_final.png&#34; alt=&#34;Kép helye&#34;&gt;&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Előnyök&lt;/th&gt;&#xA;          &lt;th&gt;Hátrányok&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;djflkaj&lt;/td&gt;&#xA;          &lt;td&gt;sdjlkfjaélsjd&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;skdjflkaj&lt;/td&gt;&#xA;          &lt;td&gt;kjlskjdjf&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;sjdlkfjlasjdl kfl&lt;!-- raw HTML omitted --&gt;skjfdlkajlk&lt;/td&gt;&#xA;          &lt;td&gt;skjdlfkjalskjdfl&lt;!-- raw HTML omitted --&gt;lkjsdlkfj&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
     <item>
       <title>Bemutatkozunk!</title>
-      <link>//192.168.1.85:1313/posts/bemutatkozunk/</link>
+      <link>http://localhost:1313/posts/bemutatkozunk/</link>
       <pubDate>Sat, 15 Aug 2026 12:14:03 +0200</pubDate>
-      <guid>//192.168.1.85:1313/posts/bemutatkozunk/</guid>
+      <guid>http://localhost:1313/posts/bemutatkozunk/</guid>
       <description>&lt;p&gt;Hiszünk abban, hogy minden ember érték, és hogy a tehetség és az elfogadás kéz a kézben járhat. Ezért hoztuk létre az Open Space Budapest kezdeményezést, egy három az egyben közösségi modellt:&lt;/p&gt;&#xA;&lt;h2 id=&#34;fejlesztő-és-terápiás-központ-ahol-&#34;&gt;Fejlesztő és Terápiás Központ, ahol :&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Autizmus spektrumzavarral élő gyerekeket és fiatalokat támogatunk személyre szabott fejlesztésekkel. Kifejezetten fókuszálva az erősségeikre!&lt;/li&gt;&#xA;&lt;li&gt;Továbbá segítünk a tanulási kihívásokkal szembesülő és szociálisan bátortalan, nehezen barátkozó, valamint szorongással nehezen megküzdő gyermekeknek, fiataloknak.&lt;/li&gt;&#xA;&lt;li&gt;Pár és Családterápiás alkalmakkal segítséget adunk a családoknak a megküzdéseikben.&lt;/li&gt;&#xA;&lt;li&gt;Pszichológiai tanácsadást biztosítunk.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;tehetséggondozó-műhely-ahol&#34;&gt;Tehetséggondozó Műhely, ahol:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Tehetséges fiatalokkal foglalkozunk, hogy segítséget és inspirációt kapjanak a további fejlődésre.&lt;/li&gt;&#xA;&lt;li&gt;Jelenleg működő foglalkozásaink: Történelem Tehetséggondozó Műhely, Kreatív és Alkotókör, Kultúra és Könyvklub.&#xA;Hamarosan indulnak: Scifi Klub, Természettudományos Műhely&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;közösségi-tér-ahol&#34;&gt;Közösségi Tér, ahol:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Programokat, klubokat, workshopokat, kiállításokat szervezünk!&#xA;Tematikus programok, az ünnepkörökhöz kötött aktivitások, várostörténeti séták, kirándulások.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Post 3</title>
-      <link>//192.168.1.85:1313/posts/post-3/</link>
+      <link>http://localhost:1313/posts/post-3/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>//192.168.1.85:1313/posts/post-3/</guid>
+      <guid>http://localhost:1313/posts/post-3/</guid>
       <description>&lt;p&gt;Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum. Deserunt esse cillum Lorem non magna adipisicing mollit amet consequat.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Post 2</title>
-      <link>//192.168.1.85:1313/posts/post-2/</link>
+      <link>http://localhost:1313/posts/post-2/</link>
       <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
-      <guid>//192.168.1.85:1313/posts/post-2/</guid>
+      <guid>http://localhost:1313/posts/post-2/</guid>
       <description>&lt;p&gt;Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.&lt;/p&gt;&#xA;&lt;p&gt;Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia. Velit id fugiat occaecat do tempor. Sit officia Lorem aliquip eu deserunt consectetur. Aute proident deserunt in nulla aliquip dolore ipsum Lorem ut cupidatat consectetur sit sint laborum. Esse cupidatat sit sint sunt tempor exercitation deserunt. Labore dolor duis laborum est do nisi ut veniam dolor et nostrud nostrud.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Post 1</title>
-      <link>//192.168.1.85:1313/posts/post-1/</link>
+      <link>http://localhost:1313/posts/post-1/</link>
       <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>//192.168.1.85:1313/posts/post-1/</guid>
+      <guid>http://localhost:1313/posts/post-1/</guid>
       <description>&lt;p&gt;Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&lt;/p&gt;&#xA;&lt;p&gt;Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea. Anim ut duis sunt nisi. Culpa cillum sit voluptate voluptate eiusmod dolor. Enim nisi Lorem ipsum irure est excepteur voluptate eu in enim nisi. Nostrud ipsum Lorem anim sint labore consequat do.&lt;/p&gt;</description>
     </item>
   </channel>
