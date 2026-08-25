@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/kik-vagyunk/</loc>
+    <lastmod>2026-08-21T21:30:49+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/mittudomen/</loc>
     <lastmod>2026-08-16T10:00:16+02:00</lastmod>
   </url><url>

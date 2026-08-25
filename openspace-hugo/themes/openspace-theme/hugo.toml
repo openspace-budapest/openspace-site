@@ -4,17 +4,17 @@ title = 'My New Hugo Project'
 
 [menus]
   [[menus.main]]
-    name = 'Home'
+    name = 'Kezdőoldal'
     pageRef = '/'
     weight = 10
 
   [[menus.main]]
-    name = 'Posts'
+    name = 'Bejegyzések'
     pageRef = '/posts'
     weight = 20
 
   [[menus.main]]
-    name = 'Tags'
+    name = 'Címkék'
     pageRef = '/tags'
     weight = 30
 

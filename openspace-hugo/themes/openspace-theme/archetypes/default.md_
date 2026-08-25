@@ -1,0 +1,8 @@
++++
+# A bejegyzés adatai a két '+++' közé kerülnek
+# A tartalom a második '+++' után kezdődik
+date = '{{ .Date }}' # bejegyzés dátuma
+draft = true    # piszkozat-e? -> csak 'false' esetén jelenik meg az oldalon a bejegyzés
+title = '{{ replace .File.ContentBaseName "-" " " | title }}' # bejegyzés címe az oldalon
++++
+

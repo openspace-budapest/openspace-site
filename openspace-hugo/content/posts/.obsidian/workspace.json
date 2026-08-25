@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7a4140b6c8b9e70e",
+            "id": "7d042b18aac93e46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mittudomen/index.md",
+                "file": "kik-vagyunk/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Fájlkezelő"
@@ -183,10 +185,14 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "4a83346375098a26",
+  "active": "7d042b18aac93e46",
   "lastOpenFiles": [
-    "mittudomen/tk_garfy_final.png",
     "mittudomen/index.md",
+    "kik-vagyunk/index.md",
+    "kik-vagyunk/muisz_pfp.png",
+    "mittudomen/tk_garfy_final.png",
+    "kik-vagyunk.md",
+    "kik-vagyunk",
     "mittudomen",
     "bemutatkozunk.md"
   ]

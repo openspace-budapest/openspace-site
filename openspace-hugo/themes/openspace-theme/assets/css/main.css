@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     border: none;
     margin: 0;
-    padding: 0;
+    padding: 1em;
 
     /* background-color: #ffffffaa; */
     /* background-image: url('logo_vectored_hd_transparent.png'); */
@@ -21,6 +21,53 @@ body {
     /* background-size: 80%; */
 }
 
+
+main, .container {
+    /* margin: 1.5rem; */
+    width: 100%;
+    /* margin: auto; */
+    /* margin: -15px; */
+    /* padding: 15px; */
+    font-size: 16px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    header {
+        /* max-width: 8cm; */
+    }
+
+    body {
+        flex-direction: column;
+    }
+
+    main, .container {
+        width: 1000px;
+        margin: auto;
+        text-align: justify;
+    }
+}
+
+header {
+    /* top: 0; */
+    /* left: 50%; */ 
+    /* padding: auto; */
+    /* position: fixed; */
+    /* height: 20em; */
+    max-height: 18em;
+
+    display: flex;
+    flex-direction: row;
+    /* width: 10%; */
+    align-items: flex-begin;
+    background: solid;
+    /* margin: 0; */
+    /* margin: 1em auto auto auto; */
+    margin: 1em auto 0 0;
+}
+
+
+/* -- TYPOGRAPHY AND CONTENT */
 h1, h2, h3 {
     font-weight: normal;
 }
@@ -50,53 +97,19 @@ p {
     /* font-family: Outfit; */
 }
 
+a {
+    text-decoration: none;
+    color: #196ae5;
+}
+a:hover {
+    text-decoration: none;
+    background-color: #196ae5;
+    color: #ffffff;
+}
+
 time {
     /* font-size: 14; */
     font-family: Iosevka;
-}
-
-@media screen (min-width: 1100px;){
-    header {
-        max-width: 8cm;
-    }
-
-    body {
-        flex-direction: column;
-    }
-
-    /* .container { */
-    main {
-        width: 1000px;
-        margin: auto;
-    }
-}
-
-header {
-    /* top: 0; */
-    /* left: 50%; */ 
-    /* padding: auto; */
-    /* position: fixed; */
-    /* height: 20em; */
-    max-height: 18em;
-
-    display: flex;
-    flex-direction: row;
-    /* width: 10%; */
-    align-items: flex-begin;
-    background: solid;
-    /* margin: 0; */
-    /* margin: 1em auto auto auto; */
-    margin: 1em auto 0 0;
-}
-
-
-
-.container {
-    /* margin: 1.5rem; */
-    width: 1000px;
-    margin: auto;
-    text-align: justify;
-    font-size: 16px;
 }
 
 table {
@@ -106,8 +119,27 @@ table {
 tr, td, th {
     padding: 1em;
     margin: 0;
+    width: auto;
+    /* max-width: 100%; */
+    /* max-height: 100%; */
 }
 
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.circle-img img {
+    border-radius: 50%;
+}
+
+/* table img { */
+/*     max-width: parent; */
+/* } */
+
+/* -- SPECIAL TAGS -- */
 
 .debug-borders {
 /* nav a, nav div { */
