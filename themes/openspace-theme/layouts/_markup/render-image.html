@@ -1,0 +1,5 @@
+{{/* hook for obsidian image syntax */}}
+<img src="{{ .Destination }}" 
+    {{- with .Title }} alt="{{ . }}" {{ end -}}
+    {{- with .PlainText }} width="{{ . }}px" {{ end -}}
+>

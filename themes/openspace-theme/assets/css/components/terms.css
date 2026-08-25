@@ -1,0 +1,13 @@
+.tags {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none; 
+    /* text */
+}
+
+.tags ul {
+    border: 1mm solid ;
+}
+

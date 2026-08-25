@@ -29,7 +29,14 @@ function onSubmenuMouseOver(e) {
     setTimeout(() => { submenuBtnLock = false; }, 100);
 }
 
-document.querySelectorAll('.submenu-btn').forEach((el) => {
+const elements = document.querySelectorAll('.submenu-btn');
+
+elements.forEach((el) => {
     // alert(el.id);
     el.addEventListener('mouseover', onSubmenuMouseOver);
 });
+
+// changeOpenSubmenuTo(elements[0].id);
+
+// document.querySelector('nav').addEventListener('mouseout', function() { changeOpenSubmenuTo(elements[0].id) });
+// switches back to the main section on mouse leave

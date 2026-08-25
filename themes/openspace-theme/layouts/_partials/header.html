@@ -1,1 +1,16 @@
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  <nav>
+    <a href="/index.html" id="logo">
+        {{ with resources.Get "images/logo_vectored.svg" }}
+        <img src="{{ .Permalink }}" alt="Az Open Space logója.">
+        {{ end }}
+    </a>
+    <!-- <p id="logo-text">open space</p> -->
+      {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+      {{ partial "menu.html" (dict "menuID" "garfy" "page" .) }}
+
+      {{/* range $menuID, $menu := site.Menus */}}
+        {{/* partial "menu.html" (dict "menuID" $menuID "page" $) */}}
+      {{/* end */}}
+
+
+  </nav>
