@@ -6,9 +6,8 @@
     </a>
     <!-- <p id="logo-text">open space</p> -->
       {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-      {{ partial "menu.html" (dict "menuID" "garfy" "page" .) }}
 
-      {{/* range $menuID, $menu := site.Menus */}}
+      {{/* range $menuID, $menu := site.Menus.main */}}
         {{/* partial "menu.html" (dict "menuID" $menuID "page" $) */}}
       {{/* end */}}
 

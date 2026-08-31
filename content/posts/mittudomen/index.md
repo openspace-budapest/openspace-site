@@ -20,3 +20,10 @@ kdjlkfajlkdsfjlks jdlfkjlksdjflk jlsjfkljsdlkfjléajsdlkfj lasj dfjasdf asdfjals
 | djflkaj                          | sdjlkfjaélsjd                 |
 | skdjflkaj                        | kjlskjdjf                     |
 | sjdlkfjlasjdl kfl<br>skjfdlkajlk | skjdlfkjalskjdfl<br>lkjsdlkfj |
+
+Így lehet videót beszúrni:
+```markdown
+{{</*youtube 96dlC2vHMRQ */>}}
+```
+
+{{<youtube 96dlC2vHMRQ >}}
