@@ -1,5 +1,5 @@
 +++
-date = '2026-08-15T12:14:03+02:00'
+# date = '2026-08-15T12:14:03+02:00'
 draft = false
 title = 'Bemutatkozunk!'
 +++

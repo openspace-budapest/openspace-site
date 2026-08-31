@@ -2,14 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/kik-vagyunk/</loc>
-    <lastmod>2026-08-21T21:30:49+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/mittudomen/</loc>
     <lastmod>2026-08-16T10:00:16+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/bemutatkozunk/</loc>
-    <lastmod>2026-08-15T12:14:03+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/blue/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
@@ -38,6 +32,12 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/fobb/bemutatkozunk/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/fobb/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/kik-vagyunk/</loc>
   </url>
 </urlset>
