@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://openspace-budapest.github.io/openspace-site'
 locale = 'hu-hu'
 title = 'Open Space Egyesület - Honlap'
 theme = 'openspace-theme'
