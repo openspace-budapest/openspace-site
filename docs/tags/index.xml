@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Open Space Egyesület - Honlap</title>
-		<link>https://example.org/tags/</link>
+		<link>https://openspace-budapest.github.io/tags/</link>
 		<description>Recent content in Tags on Open Space Egyesület - Honlap</description>
 		<generator>Hugo</generator>
 		<language>hu-hu</language>
@@ -12,6 +12,6 @@
 			<copyright>Open Space Egyesület</copyright>
 		
 		
-			<atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://openspace-budapest.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>
