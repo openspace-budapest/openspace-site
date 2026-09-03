@@ -7,31 +7,26 @@ Renders a menu for the given menu ID.
 @example: {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
 */}}
 
-{{- $page := .page }} {{- $menuID := .menuID }}
-{{- with index site.Menus $menuID }}
-    {{- if in $menuID "main" }}
-        <a href="" id="{{- $menuID -}}" class="submenu-btn hidden" ><span>főbb menüpontok</span></a>
-        <div id="{{- $menuID -}}-menu" class="submenu">
-          {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+{{/*- $page := .page }} {{- $menuID := .menuID */}}
+{{- range site.Sections -}}
+    {{- if in .Slug "main" }}
+        <a href="" id="{{- .Title -}}" class="submenu-btn hidden" ><span>főbb menüpontok</span></a>
+        <div id="{{- .Title -}}-menu" class="submenu">
+          {{- partial "inline/menu/walk.html"  .RegularPages }}
         </div>
     {{ else }}
-        <a href="" id="{{- $menuID -}}" class="submenu-btn" ><span>{{- $menuID -}}</span></a>
-        <div id="{{- $menuID -}}-menu" class="submenu hidden">
-          {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+        <a href="" id="{{- .Title -}}" class="submenu-btn" ><span>{{- .Title -}}</span></a>
+        <div id="{{- .Title -}}-menu" class="submenu hidden">
+          {{- partial "inline/menu/walk.html" .RegularPages }}
         </div>
     {{ end -}}
 {{- end }}
 
 {{- define "_partials/inline/menu/walk.html" }}
-  {{- $page := .page }}
-  {{- range .menuEntries }}
-    {{- $attrs := dict "href" .URL }}
-    {{- if $page.IsMenuCurrent .Menu . }} {{- $attrs = merge $attrs (dict "class" "active" "aria-current" "page") }}
-    {{- else if $page.HasMenuCurrent .Menu .}}
-      {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
-    {{- end }}
+  {{- range . }}
+    {{- $attrs := dict "href" .Permalink }}
     {{- $name := .Name }}
-    {{- with .Identifier }}
+    {{- with .Title }}
       {{- with T . }}
         {{- $name = . }}
       {{- end }}
