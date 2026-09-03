@@ -5,11 +5,13 @@
         {{ end }}
     </a>
     <!-- <p id="logo-text">open space</p> -->
-      {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-
-      {{/* range $menuID, $menu := site.Menus.main */}}
-        {{/* partial "menu.html" (dict "menuID" $menuID "page" $) */}}
+      <!-- {{/* partial "menu.html" (dict "menuID" "main" "page" .) */}} -->
+      <!---->
+      {{/* range $section := site.Home.Sections */}}
+        {{/* partial "menu.html" (dict "sectionID" $menuID "page" $) */}}
       {{/* end */}}
 
+      {{ partial "menu.html" }}
+      
 
   </nav>

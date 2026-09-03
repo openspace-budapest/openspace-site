@@ -1,22 +1,6 @@
 baseURL = 'https://example.org/'
-locale = 'en-US'
-title = 'My New Hugo Project'
-
-# [menus]
-#   [[menus.main]]
-#     name = 'Kezdőoldal'
-#     pageRef = '/'
-#     weight = 10
-#
-#   [[menus.main]]
-#     name = 'Bejegyzések'
-#     pageRef = '/posts'
-#     weight = 20
-#
-#   [[menus.main]]
-#     name = 'Címkék'
-#     pageRef = '/tags'
-#     weight = 30
+locale = 'hu-HU'
+title = 'Open Space Budapest - honlap'
 
 sectionPagesMenu = 'main'
 
@@ -24,3 +8,4 @@ sectionPagesMenu = 'main'
   [module.hugoVersion]
     extended = false
     min = '0.146.0'
+
